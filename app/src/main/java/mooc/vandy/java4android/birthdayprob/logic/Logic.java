@@ -3,8 +3,10 @@ package mooc.vandy.java4android.birthdayprob.logic;
 import android.util.Log;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Random;
+import java.util.Set;
 
 import mooc.vandy.java4android.birthdayprob.ui.OutputInterface;
 
@@ -79,24 +81,26 @@ public class Logic
      * We provide you this method that way we can test it with unit testing.
      */
     public double calculate(int size, int count) {
-        // TODO -- add your code here
-        List<Number> birthdays = new ArrayList<Number>();
-        for(int i=0; i < size; i++) {
-            // TODO -- run calculations
-            birthdays.add(randomBirthDay(i+1));
+        double matches = 0.00;
+        ArrayList<Number> birthdays = new ArrayList<>();
+
+        for(int i=0; i < count; i++) {
+            birthdays = gen_birthdays(size, i+1);
+            Set<Number> birthdaySet = new HashSet<Number>(birthdays);
+            if(birthdaySet.size() < birthdays.size()) {
+                matches += 1.00;
+            }
         }
-        Log.v("Calculate", "Birthdays: " + birthdays);
-        return 2.2;
+        return (matches / count) * 100.00;
     }
 
-    // TODO - add your code here
-    public void gen_birthdays(int size) {
-        return;
-    }
-
-    public Number randomBirthDay(int num) {
+    public ArrayList<Number> gen_birthdays(int size, int simNumber) {
+        ArrayList<Number> birthdays = new ArrayList<Number>();
         Random rnd = new Random();
-        rnd.setSeed(num);
-        return rnd.nextInt(365);
+        rnd.setSeed(simNumber);
+        for(int i=0; i < size; i++) {
+            birthdays.add(rnd.nextInt(365));
+        }
+        return birthdays;
     }
 }
