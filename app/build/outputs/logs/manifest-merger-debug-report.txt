@@ -15,9 +15,9 @@ ADDED from /home/jason/AndroidStudioProjects/m5-assignment-birthday-probability-
 		INJECTED from /home/jason/AndroidStudioProjects/m5-assignment-birthday-probability-skeleton/app/src/main/AndroidManifest.xml
 application
 ADDED from /home/jason/AndroidStudioProjects/m5-assignment-birthday-probability-skeleton/app/src/main/AndroidManifest.xml:5:5-18:19
-MERGED from [com.android.support:design:22.2.1] /home/jason/.android/build-cache/f1b768508fa72a07abc1727ca543c736e58992a5/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:22.2.1] /home/jason/.android/build-cache/f1df3e85ca1a7d68affa6c4b64e507934d6454fa/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.2.1] /home/jason/.android/build-cache/7f482096e48fe9a8126aeb79d31f8f30c951076c/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:22.2.1] /home/jason/.android/build-cache/bed2f0a58850bbe8d07a19aae57ab6361f2bdec1/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/jason/.android/build-cache/911150135eee4db938f68842e042d60bf4d91210/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /home/jason/.android/build-cache/3c635955ff92cea8a1d6b07436db9db3c800e9f6/output/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /home/jason/AndroidStudioProjects/m5-assignment-birthday-probability-skeleton/app/src/main/AndroidManifest.xml:8:9-41
 	android:supportsRtl
@@ -44,9 +44,9 @@ ADDED from /home/jason/AndroidStudioProjects/m5-assignment-birthday-probability-
 		ADDED from /home/jason/AndroidStudioProjects/m5-assignment-birthday-probability-skeleton/app/src/main/AndroidManifest.xml:15:27-74
 uses-sdk
 INJECTED from /home/jason/AndroidStudioProjects/m5-assignment-birthday-probability-skeleton/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:22.2.1] /home/jason/.android/build-cache/f1b768508fa72a07abc1727ca543c736e58992a5/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:22.2.1] /home/jason/.android/build-cache/f1df3e85ca1a7d68affa6c4b64e507934d6454fa/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.2.1] /home/jason/.android/build-cache/7f482096e48fe9a8126aeb79d31f8f30c951076c/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:22.2.1] /home/jason/.android/build-cache/bed2f0a58850bbe8d07a19aae57ab6361f2bdec1/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/jason/.android/build-cache/911150135eee4db938f68842e042d60bf4d91210/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /home/jason/.android/build-cache/3c635955ff92cea8a1d6b07436db9db3c800e9f6/output/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		INJECTED from /home/jason/AndroidStudioProjects/m5-assignment-birthday-probability-skeleton/app/src/main/AndroidManifest.xml
 		INJECTED from /home/jason/AndroidStudioProjects/m5-assignment-birthday-probability-skeleton/app/src/main/AndroidManifest.xml

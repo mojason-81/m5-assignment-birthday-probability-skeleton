@@ -1,5 +1,7 @@
 package mooc.vandy.java4android.birthdayprob.logic;
 
+import android.util.Log;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -78,16 +80,23 @@ public class Logic
      */
     public double calculate(int size, int count) {
         // TODO -- add your code here
-        List<Number> birthdays = new ArrayList<Number>(gen_birthdays(size));
-        Random rnd = new Random();
-        for(i=0; i < count; i++) {
+        List<Number> birthdays = new ArrayList<Number>();
+        for(int i=0; i < size; i++) {
             // TODO -- run calculations
-            rnd.setSeed(i);
-            int = rnd.nextInt(365);
+            birthdays.add(randomBirthDay(i+1));
         }
+        Log.v("Calculate", "Birthdays: " + birthdays);
+        return 2.2;
     }
 
     // TODO - add your code here
-    public List<Number> gen_birthdays(int size) {
+    public void gen_birthdays(int size) {
+        return;
+    }
+
+    public Number randomBirthDay(int num) {
+        Random rnd = new Random();
+        rnd.setSeed(num);
+        return rnd.nextInt(365);
     }
 }
