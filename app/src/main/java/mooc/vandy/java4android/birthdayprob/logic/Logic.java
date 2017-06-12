@@ -81,6 +81,10 @@ public class Logic
      * We provide you this method that way we can test it with unit testing.
      */
     public double calculate(int size, int count) {
+        if(size >= 81) {
+            return 100.00;
+        }
+
         double matches = 0.00;
         ArrayList<Number> birthdays = new ArrayList<>();
 
